@@ -13,7 +13,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/tyagow/django-base/issues.
+Report bugs at https://github.com/tyagow/atrader/issues.
 
 If you are reporting a bug, please include:
 
@@ -37,13 +37,13 @@ Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
 django-base could always use more documentation, whether as part of the
-official django-base docs, in docstrings, or even on the web in blog posts,
+official atrader docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/tyagow/django-base/issues.
+The best way to send feedback is to file an issue at https://github.com/tyagow/atrader/issues.
 
 If you are proposing a feature:
 
@@ -55,11 +55,11 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `django-base` for local development.
+Ready to contribute? Here's how to set up `atrader` for local development.
 
 
 1. Clone o repositório.
-2. Crie um virutalenv com o Python 3.5
+2. Crie um virutalenv com o Python 3.6
 3. Ative o Virtualenv.
 4. Instale as dependencias.
 5. Configure a instancia com o .env
@@ -69,8 +69,8 @@ Ready to contribute? Here's how to set up `django-base` for local development.
 
 Digite no terminal::
 
-    git clone https://github.com/tyagow/django-base.git Nome-Do-Projeto
-    cd Nome-Do-Projeto
+    git clone https://github.com/tyagow/atrader.git ATrader
+    cd ATrader
     python -m venv .venv
     source .venv/bin/activate
     pip install -r requirements.txt
@@ -100,7 +100,7 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 2.6, 2.7, and 3.5, and for PyPy. Check
-   https://travis-ci.org/tyagow/django-base/pull_requests
+   https://travis-ci.org/tyagow/atrader/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
 Tips

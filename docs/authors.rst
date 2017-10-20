@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* django-base <tyagow@hotmail.com.br>
+* ATrader <tyagow@hotmail.com.br>
 
 Contributors
 ------------

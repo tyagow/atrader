@@ -1,23 +1,21 @@
 =============================
-Django Base
+Autometed Trader
 =============================
 
 
-.. image:: https://travis-ci.org/tyagow/django-base.svg?branch=master
-    :target: https://travis-ci.org/tyagow/django-base
+.. image:: https://travis-ci.org/tyagow/atrader.svg?branch=master
+    :target: https://travis-ci.org/tyagow/atrader
 
 Documentation
 -------------
 
-The full documentation is at http://django-base.readthedocs.io.
-
-Live demo @ http://django-base.104.236.104.21.xip.io
+The full documentation is at http://atrader.readthedocs.io.
 
 Quickstart
 ----------
 
 1. Clone o repositório.
-2. Crie um virutalenv com o Python 3.5
+2. Crie um virutalenv com o Python 3.6
 3. Ative o Virtualenv.
 4. Instale as dependencias.
 5. Configure as variaveis sensiveis do projeto com o .env
@@ -28,8 +26,8 @@ Quickstart
 
 Digite no terminal::
 
-    git clone https://github.com/tyagow/django-base.git Nome-Do-Projeto
-    cd Nome-Do-Projeto
+    git clone https://github.com/tyagow/atrader.git ATrader
+    cd ATrader
     python -m venv .venv
     source .venv/bin/activate
     pip install -r requirements.txt
@@ -49,8 +47,8 @@ Como fazer o Deploy?
 Features
 --------
 
-* Django 1.10.5
-* Bootstrap 4 alpha 6
+* Django 1.11.4
+* Bootstrap 3
 * JQuery 3.1.1
 * Python Decouple
 * DJ Static (serving static files locally)
