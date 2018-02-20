@@ -9,3 +9,6 @@ media/
 .env
 htmlcov
 deploy_utils/deploy_key
+atrader
+atrader.pub
+.coverage

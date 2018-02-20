@@ -1,20 +1,24 @@
 machine:
   python:
-    version: 3.5.1
+    version: 3.6.1
 general:
   artifacts:
     - "htmlcov"
 dependencies:
   pre:
   - cp contrib/env-sample .env
+  - pip install coveralls
 test:
   override:
     - coverage run manage.py test
   post:
+    - coverage report --fail-under=80
     - coverage html -d $CIRCLE_ARTIFACTS
+    - coveralls
 deployment:
   production:
     branch: master
     commands:
       - git remote add deploy dokku@104.236.104.21:atrader
       - git push deploy master
+      - ssh dokku@104.236.104.21 run atrader python manage.py migrate

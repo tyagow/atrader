@@ -1,7 +1,7 @@
-# Projeto Base
+# Automated Trader
 
-Projeto Base
 
-The full documentation is at http://django-base.readthedocs.io
+##### A website where users can create their own strategies for trade cryptocurrency in an automated , easy to config and back test, platform.
 
-Live demo @ http://django-base.104.236.104.21.xip.io
+The full documentation is at http://atrader.readthedocs.io
+
